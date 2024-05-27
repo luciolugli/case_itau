@@ -57,3 +57,6 @@ Para executar os testes de unidade e integração do projeto, você pode usar o 
 
 python -m unittest discover tests
 Isso executará todos os testes encontrados na pasta tests e suas subpastas.
+
+
+Cheguei a instalar o helm e  tentando configurar o EC2 como Jenkins para 
