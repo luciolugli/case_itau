@@ -48,3 +48,11 @@ Este projeto é uma API para verificar tokens JWT. A API valida vários aspectos
 Para executar os testes, utilize o comando:
 ```bash
 pytest
+
+### Pipeline CI/CD com Jenkins
+Este projeto está configurado para utilizar o Jenkins para CI/CD. O pipeline Jenkinsfile inclui etapas para construção, push para ECR e deploy para ECS.
+
+Configuração do Jenkins
+Configure suas credenciais AWS no Jenkins.
+Adicione o repositório GitHub como SCM no Jenkins.
+Crie um pipeline e utilize o Jenkinsfile do projeto
