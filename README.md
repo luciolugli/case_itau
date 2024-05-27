@@ -20,6 +20,7 @@ python app.py
 Documentação da API: http://127.0.0.1:5000/.
 
 Caso 1
+
 ![image](https://github.com/luciolugli/case_itau/assets/170758476/4faac685-68d1-4d75-b3d5-fe5212e9cad7)
 
 Caso 2
