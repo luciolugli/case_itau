@@ -1,18 +1,24 @@
-# Use a imagem base do Python
-FROM python:3.8-slim
+# Use uma imagem base oficial do Python
+FROM python:3.9-slim
 
-# Defina o diretório de trabalho dentro do contêiner
+# Define o diretório de trabalho
 WORKDIR /app
 
-# Copie o conteúdo do diretório atual para o diretório de trabalho no contêiner
-COPY . .
+# Copie o arquivo de requisitos
+COPY requirements.txt .
 
-# Instale as dependências do Flask
+# Instale as dependências
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Exponha a porta em que o aplicativo Flask está sendo executado
+# Copie o restante da aplicação
+COPY . .
+
+# Defina a variável de ambiente para garantir que o stdout e stderr do Python não sejam bufferizados
+ENV PYTHONUNBUFFERED=1
+
+# Exponha a porta em que a aplicação vai rodar
 EXPOSE 8080
 
-# Comando para executar o aplicativo Flask quando o contêiner for iniciado
+# Comando para rodar a aplicação
 CMD ["python", "app.py"]
 
