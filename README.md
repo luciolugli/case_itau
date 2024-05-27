@@ -49,7 +49,8 @@ Para executar os testes, utilize o comando:
 ```bash
 pytest
 
-### Pipeline CI/CD com Jenkins
+### Testes de Unidade / Integração
+
 Este projeto está configurado para utilizar o Jenkins para CI/CD. O pipeline Jenkinsfile inclui etapas para construção, push para ECR e deploy para ECS.
 
 Configuração do Jenkins
