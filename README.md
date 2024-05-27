@@ -2,7 +2,7 @@ Instalação e Execução
 Para executar o projeto localmente, siga estas etapas:
 
 1 - Clone o repositório:
-Copie o comando
+
 git clone https://github.com/luciolugli/case_itau.git
 
 2 - Navegue até o diretório do projeto:
