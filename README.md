@@ -6,12 +6,15 @@ Para executar o projeto localmente, siga estas etapas:
 git clone https://github.com/luciolugli/case_itau.git
 
 2 - Navegue até o diretório do projeto:
+
 cd case_itau
 
 3 - Instale as dependências do projeto:
+
 pip install -r requirements.txt
 
 4 - Execute o aplicativo:
+
 python app.py
 
 🏢 Estrutura do Projeto
