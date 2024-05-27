@@ -17,7 +17,7 @@ O aplicativo estará em execução em http://127.0.0.1:5000/.
 
 🏢 Estrutura do Projeto
 
-/seu-projeto
+/projeto validador jwt
 ├── app.py
 ├── static
 │   └── swagger.yaml
@@ -26,6 +26,8 @@ O aplicativo estará em execução em http://127.0.0.1:5000/.
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+![image](https://github.com/luciolugli/case_itau/assets/170758476/deaec927-9b9d-45fc-aeb4-d8c0ff34fe8f)
+
 
 Descrição dos Métodos da API
 Método POST /verify
